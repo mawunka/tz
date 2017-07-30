@@ -1,0 +1,12 @@
+import unittest
+from c_v2 import client
+
+class TestClient(unittest.TestCase):
+	def setUp(self):
+		pass
+	def tearDown(self):
+		pass
+		
+		
+	def test0(self):
+		self.assertEqual(client(2000, False, 'test0', None), '[done]')
